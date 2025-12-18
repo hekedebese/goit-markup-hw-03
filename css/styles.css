@@ -65,8 +65,8 @@ h3 {
 }
 
 .container {
-  width: 1158px;
-  margin: 0 auto;
+  max-width: 1158px;
+  margin: 0 156px;
   padding: 0 15px;
 }
 
@@ -184,7 +184,6 @@ address {
 .features {
   display: flex;
   gap: 24px;
-  /* margin-left: 156px; */
 }
 
 .features li {
@@ -192,7 +191,7 @@ address {
 }
 
 .features h3 {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* __________TEAM__________ */
@@ -272,9 +271,7 @@ footer {
 
 .footer-text {
   width: 264px;
-  padding-top: 100px;
-  margin-left: 156px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer-text .logo {
