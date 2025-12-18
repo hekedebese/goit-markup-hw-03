@@ -109,6 +109,10 @@ img {
   gap: 40px;
 }
 
+.nav-link li {
+  width: calc((100% - 80px) / 3);
+}
+
 header a {
   padding: 24px 0;
   display: block;
@@ -147,6 +151,10 @@ address {
 .address-list-link:hover,
 .address-list-link:focus {
   color: #404bbf;
+}
+
+.address-list li {
+  width: calc((100% - 40px) / 2);
 }
 
 /* __________HERO__________ */
@@ -197,16 +205,12 @@ address {
   gap: 24px;
 }
 
-.features li {
-  width: 264px;
-}
-
 .features h3 {
   margin-bottom: 8px;
 }
 
 .features li {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 /* __________TEAM__________ */
