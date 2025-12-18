@@ -306,5 +306,6 @@ footer {
 }
 
 .footer-text .logo {
-  padding-bottom: 16px;
+  display: block;
+  margin-bottom: 16px;
 }
