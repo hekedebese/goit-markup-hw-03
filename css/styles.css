@@ -109,10 +109,6 @@ img {
   gap: 40px;
 }
 
-.nav-link li {
-  width: calc((100% - 80px) / 3);
-}
-
 header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -140,6 +136,7 @@ header a {
 }
 
 address {
+  line-height: 1.5;
   margin-left: auto;
 }
 
@@ -155,10 +152,6 @@ address {
 .address-list-link:hover,
 .address-list-link:focus {
   color: #404bbf;
-}
-
-.address-list li {
-  width: calc((100% - 40px) / 2);
 }
 
 /* __________HERO__________ */
@@ -241,7 +234,7 @@ address {
 }
 
 .team h3 {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-box {
@@ -276,7 +269,7 @@ address {
 }
 
 .portfolio-item-list h3 {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-box {
